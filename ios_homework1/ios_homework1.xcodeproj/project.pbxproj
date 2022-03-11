@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9090E7DD27D6BD22008DE789 /* ios_homework1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9090E7DC27D6BD22008DE789 /* ios_homework1App.swift */; };
 		9090E7DF27D6BD22008DE789 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9090E7DE27D6BD22008DE789 /* ContentView.swift */; };
-		9090E7E127D6BD23008DE789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9090E7E027D6BD23008DE789 /* Assets.xcassets */; };
 		9090E7E427D6BD23008DE789 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9090E7E327D6BD23008DE789 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -17,7 +16,6 @@
 		9090E7D927D6BD22008DE789 /* ios_homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9090E7DC27D6BD22008DE789 /* ios_homework1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_homework1App.swift; sourceTree = "<group>"; };
 		9090E7DE27D6BD22008DE789 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9090E7E027D6BD23008DE789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9090E7E327D6BD23008DE789 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,7 +51,6 @@
 			children = (
 				9090E7DC27D6BD22008DE789 /* ios_homework1App.swift */,
 				9090E7DE27D6BD22008DE789 /* ContentView.swift */,
-				9090E7E027D6BD23008DE789 /* Assets.xcassets */,
 				9090E7E227D6BD23008DE789 /* Preview Content */,
 			);
 			path = ios_homework1;
@@ -126,7 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9090E7E427D6BD23008DE789 /* Preview Assets.xcassets in Resources */,
-				9090E7E127D6BD23008DE789 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
