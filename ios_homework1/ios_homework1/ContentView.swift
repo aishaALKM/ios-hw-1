@@ -17,12 +17,20 @@ struct ContentView: View {
                 .font(.title)
                 .fontWeight(.black)
             
-        
+            ZStack{
+                
+                
+                Text("")
+                                        .frame(width: 400, height: 130)
+                                        .background(.red)
+
             HStack{
+                
+              
              
             Image("blacklist")
                 .resizable()
-                .padding()
+                .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
                 .frame(width: 130, height: 130)
                 .scaledToFit()
               
@@ -34,20 +42,25 @@ struct ContentView: View {
                 Spacer()
                 Text("7.3")
                 Text("⭐️")
+            }
                 
                    
             }
-            .padding()
-            
+           
             
             
             
             VStack{
-                Spacer()
+               
+                ZStack{
+                    
+                    Text("")
+                                            .frame(width: 400, height: 130)
+                                            .background(.green)
                 HStack{
-                    Image("uri")
+                    Image("hgsesfy")
                         .resizable()
-                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                        .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
                         .frame(width: 130, height: 130)
                         .scaledToFit()
                     
@@ -59,6 +72,7 @@ struct ContentView: View {
                     Spacer()
                     Text("7.8")
                     Text("⭐️")
+                }
                     
                  
                   
@@ -67,11 +81,15 @@ struct ContentView: View {
             }
             
             VStack{
-                Spacer()
+            
+                ZStack{
+                    Text("")
+                                            .frame(width: 400, height: 130)
+                                            .background(.blue)
                 HStack{
                     Image("image5")
                         .resizable()
-                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                        .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
                         .frame(width: 130, height: 130)
                         .scaledToFit()
                     Text("Stranger things")
@@ -82,15 +100,20 @@ struct ContentView: View {
                     Spacer()
                     Text("8.8")
                     Text("⭐️")
+                }
                     
                 }
             }
             VStack{
-                Spacer()
+                
+                ZStack{
+                    Text("")
+                                            .frame(width: 400, height: 130)
+                                            .background(.orange)
                 HStack{
-                    Image("uyt")
+                    Image("oiuytytref")
                         .resizable()
-                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                        .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
                         .frame(width: 130, height: 130)
                         .scaledToFit()
              
@@ -101,6 +124,7 @@ struct ContentView: View {
                     Spacer()
                     Text("8.2")
                     Text("⭐️")
+                }
                   
          
                       
@@ -108,11 +132,14 @@ struct ContentView: View {
             }
             
             VStack{
-                Spacer()
+                ZStack{
+                    Text("")
+                                            .frame(width: 400, height: 130)
+                                            .background(.brown)
                 HStack{
-                    Image("key")
+                    Image("lockeandkey")
                         .resizable()
-                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                        .padding(/*@START_MENU_TOKEN@*/[.leading, .bottom, .trailing]/*@END_MENU_TOKEN@*/)
                         .frame(width: 130, height: 130)
                         .scaledToFit()
                
@@ -123,6 +150,7 @@ struct ContentView: View {
                     Spacer()
                     Text("6.2")
                     Text("⭐️")
+                }
                     
                     
                   
